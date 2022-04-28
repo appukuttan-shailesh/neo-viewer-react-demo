@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Neural Activity Visualizer - ReactJS Demo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app demonstrates a sample usage of the ReactJS implementation of the `neural-activity-visualizer-react` component.
 
-## Available Scripts
+`neural-activity-visualizer-react` is a JavaScript component for visualizing neural activity data 
+(analog signals, spike trains etc.) stored in any of the file formats supported by the 
+[Neo](http://neuralensemble.org/neo) library. Implementations are available in 
+both AngularJS and ReactJS.
 
-In the project directory, you can run:
+Homepage:
+https://neo-viewer.brainsimulation.eu/
 
-### `npm start`
+## Quick overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The component was developed to produce graphical representations of neural activity data based on the Neo object model. [Neo](http://neuralensemble.org/neo) is an open source API implemented in Python supporting many file formats, including several proprietary formats (e.g. AlphaOmega, Plexon, NeuroExplorer), open formats (e.g. Neurodata Without Borders, Klustakwik, Elan) and generic file formats (e.g. MATLAB, ASCII, HDF5). Neo loads this data into a common object model with the aim of increasing interoperability of various software tools used in electrophysiology and thus facilitating sharing of data between different projects. Neo's focus is solely on the structure of the data, with separate tools being required for their analysis. Our compoment comes in at this stage by enabling interactive visualization of data. It makes use of the open source [Plotly](https://plotly.com/javascript/) library for visualisation, owing to its efficiency in handling large data, and [Django](https://www.djangoproject.com/) Python web framework for the backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<div><img src="eu_logo.jpg" alt="EU Logo" width="15%" align="right"></div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+This open source software code was developed in part or in whole in the Human Brain Project, funded from the European Union's Horizon 2020 Framework Programme for Research and Innovation under Specific Grant Agreements No. 720270, No. 785907 and No. 945539 (Human Brain Project SGA1, SGA2 and SGA3).
