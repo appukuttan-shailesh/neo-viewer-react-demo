@@ -10,7 +10,7 @@ both AngularJS and ReactJS.
 ReactJS Demo App:
 https://neo-viewer.brainsimulation.eu/react
 
-`neural-activity-visualizer-react` Homepage:
+Homepage:
 https://neo-viewer.brainsimulation.eu/
 
 ## Quick overview
