@@ -7,7 +7,10 @@ This app demonstrates a sample usage of the ReactJS implementation of the `neura
 [Neo](http://neuralensemble.org/neo) library. Implementations are available in 
 both AngularJS and ReactJS.
 
-Homepage:
+ReactJS Demo App:
+https://neo-viewer.brainsimulation.eu/react
+
+`neural-activity-visualizer-react` Homepage:
 https://neo-viewer.brainsimulation.eu/
 
 ## Quick overview
